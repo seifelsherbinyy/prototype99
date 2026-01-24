@@ -1,0 +1,55 @@
+{
+  "description": "Maps parsed metric names to canonical WBR column names",
+  "version": "1.0",
+  "mappings": {
+    "revenue_metrics": {
+      "Product GMS": "Ordered_Revenue",
+      "Product Sales": "Ordered_Revenue",
+      "Ordered Product Sales": "Ordered_Revenue",
+      "Ordered Sales": "Ordered_Revenue",
+      "Ordered Revenue": "Ordered_Revenue",
+      "Retail Net OPS": "Ordered_Revenue",
+      "All Net OPS": "Ordered_Revenue",
+      "3P Net OPS": "Ordered_Revenue",
+      "List Price": "List_Price",
+      "ASP": "Average_Selling_Price",
+      "Total GMM": "Total_GMM",
+      "Deal GMS": "Deal_GMS",
+      "Net Receipts": "Net_Receipts_Revenue",
+      "Customer Returns": "Customer_Returns",
+      "CP": "Cost_Price"
+    },
+    "unit_metrics": {
+      "Net Ordered Units": "Ordered_Units",
+      "Net Receipts (Units)": "Net_Receipts_Units",
+      "SELLABLE_ON_HAND_UNITS": "Sellable_On_Hand_Units"
+    },
+    "performance_metrics": {
+      "Net PPM": "Net_PPM",
+      "PPM": "PPM",
+      "CM": "Contribution_Margin",
+      "GV": "Glance_Views",
+      "Amzn GV": "Amazon_Glance_Views"
+    },
+    "rate_metrics": {
+      "SoROOS(%)": "SoROOS_Pct",
+      "Daily SoRoos%": "Daily_SoRoos_Pct",
+      "Conversion Rate": "Conversion_Rate",
+      "Conversion Rate(%)": "Conversion_Rate",
+      "Unit Session Percentage": "Conversion_Rate",
+      "Fill Rate - Sourceable": "Fill_Rate_Sourceable",
+      "Vendor Confirmation Rate - Sourceable": "Vendor_Confirmation_Rate",
+      "CCOGS As A % Of PCOGS": "CCOGS_As_Pct_Of_PCOGS",
+      "External Box Price Competitiveness (% Of GV)": "External_Price_Competitiveness"
+    },
+    "score_metrics": {
+      "IDQ Score": "IDQ_Score"
+    },
+    "static_columns": {
+      "ASIN": "ASIN",
+      "Brand Name": "Brand_Name",
+      "SKU": "SKU",
+      "Product Title": "Product_Title"
+    }
+  }
+}

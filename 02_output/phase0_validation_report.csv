@@ -1,0 +1,933 @@
+Source_File,Raw_Header_Found,Regex_Pattern_Matched,Parsed_Week,Parsed_Metric,Parsed_Currency_Unit,Is_Percentage,Mapped_To_WBR_Column,Confidence_Score,Flag_Status
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,List Price($)(T12M ),currency_t12m,T12M,List Price,$,False,List_Price,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Product GMS($)(T12M ),currency_t12m,T12M,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Deal GMS($)(T12M ),currency_t12m,T12M,Deal GMS,$,False,Deal_GMS,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Net PPM(T12M )(%),t12m_pct,T12M,Net PPM,%,True,Net_PPM,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,GV(T12M ),t12m_only,T12M,GV,,False,Glance_Views,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Amzn GV(T12M ),t12m_only,T12M,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,SoROOS(%)(T12M )(%),pct_metric_t12m_pct,T12M,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Daily SoRoos%(T12M )(%),pct_suffix_t12m_pct,T12M,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Fill Rate - Sourceable(T12M )(%),t12m_pct,T12M,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Vendor Confirmation Rate - Sourceable(T12M )(%),t12m_pct,T12M,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,ASP(T12M ),t12m_only,T12M,ASP,,False,Average_Selling_Price,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,CM(T12M )(%),t12m_pct,T12M,CM,%,True,Contribution_Margin,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,CP($)(T12M ),currency_t12m,T12M,CP,$,False,Cost_Price,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts($)(T12M ),currency_t12m,T12M,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts (Units)(T12M ),units_t12m,T12M,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,CCOGS As A % Of PCOGS(T12M )(%),t12m_pct,T12M,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,PPM(T12M )(%),t12m_pct,T12M,PPM,%,True,PPM,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,External Box Price Competitiveness (% Of GV)(T12M )(%),t12m_pct,T12M,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Net Ordered Units(T12M ),t12m_only,T12M,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,Customer Returns($)(T12M ),currency_t12m,T12M,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T12M_722XP_brightstar_AE_2026018-DoNotShareExternally.csv,IDQ Score(T12M ),t12m_only,T12M,IDQ Score,,False,IDQ_Score,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,List Price($)(T12M ),currency_t12m,T12M,List Price,$,False,List_Price,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Product GMS($)(T12M ),currency_t12m,T12M,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Deal GMS($)(T12M ),currency_t12m,T12M,Deal GMS,$,False,Deal_GMS,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Net PPM(T12M )(%),t12m_pct,T12M,Net PPM,%,True,Net_PPM,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,GV(T12M ),t12m_only,T12M,GV,,False,Glance_Views,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Amzn GV(T12M ),t12m_only,T12M,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,SoROOS(%)(T12M )(%),pct_metric_t12m_pct,T12M,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Daily SoRoos%(T12M )(%),pct_suffix_t12m_pct,T12M,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Fill Rate - Sourceable(T12M )(%),t12m_pct,T12M,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Vendor Confirmation Rate - Sourceable(T12M )(%),t12m_pct,T12M,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,ASP(T12M ),t12m_only,T12M,ASP,,False,Average_Selling_Price,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,CM(T12M )(%),t12m_pct,T12M,CM,%,True,Contribution_Margin,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,CP($)(T12M ),currency_t12m,T12M,CP,$,False,Cost_Price,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts($)(T12M ),currency_t12m,T12M,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts (Units)(T12M ),units_t12m,T12M,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,CCOGS As A % Of PCOGS(T12M )(%),t12m_pct,T12M,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,PPM(T12M )(%),t12m_pct,T12M,PPM,%,True,PPM,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,External Box Price Competitiveness (% Of GV)(T12M )(%),t12m_pct,T12M,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Net Ordered Units(T12M ),t12m_only,T12M,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,Customer Returns($)(T12M ),currency_t12m,T12M,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T12M_KYO02_brightstar_AE_2026018-DoNotShareExternally.csv,IDQ Score(T12M ),t12m_only,T12M,IDQ Score,,False,IDQ_Score,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,List Price($)(T12M ),currency_t12m,T12M,List Price,$,False,List_Price,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Product GMS($)(T12M ),currency_t12m,T12M,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Deal GMS($)(T12M ),currency_t12m,T12M,Deal GMS,$,False,Deal_GMS,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Net PPM(T12M )(%),t12m_pct,T12M,Net PPM,%,True,Net_PPM,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,GV(T12M ),t12m_only,T12M,GV,,False,Glance_Views,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Amzn GV(T12M ),t12m_only,T12M,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,SoROOS(%)(T12M )(%),pct_metric_t12m_pct,T12M,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Daily SoRoos%(T12M )(%),pct_suffix_t12m_pct,T12M,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Fill Rate - Sourceable(T12M )(%),t12m_pct,T12M,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Vendor Confirmation Rate - Sourceable(T12M )(%),t12m_pct,T12M,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,ASP(T12M ),t12m_only,T12M,ASP,,False,Average_Selling_Price,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,CM(T12M )(%),t12m_pct,T12M,CM,%,True,Contribution_Margin,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,CP($)(T12M ),currency_t12m,T12M,CP,$,False,Cost_Price,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts($)(T12M ),currency_t12m,T12M,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts (Units)(T12M ),units_t12m,T12M,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,CCOGS As A % Of PCOGS(T12M )(%),t12m_pct,T12M,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,PPM(T12M )(%),t12m_pct,T12M,PPM,%,True,PPM,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,External Box Price Competitiveness (% Of GV)(T12M )(%),t12m_pct,T12M,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Net Ordered Units(T12M ),t12m_only,T12M,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,Customer Returns($)(T12M ),currency_t12m,T12M,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T12M_SWM6A_brightstar_AE_2026018-DoNotShareExternally.csv,IDQ Score(T12M ),t12m_only,T12M,IDQ Score,,False,IDQ_Score,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,List Price($)(T12M ),currency_t12m,T12M,List Price,$,False,List_Price,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Product GMS($)(T12M ),currency_t12m,T12M,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Deal GMS($)(T12M ),currency_t12m,T12M,Deal GMS,$,False,Deal_GMS,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Net PPM(T12M )(%),t12m_pct,T12M,Net PPM,%,True,Net_PPM,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,GV(T12M ),t12m_only,T12M,GV,,False,Glance_Views,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Amzn GV(T12M ),t12m_only,T12M,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,SoROOS(%)(T12M )(%),pct_metric_t12m_pct,T12M,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Daily SoRoos%(T12M )(%),pct_suffix_t12m_pct,T12M,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Fill Rate - Sourceable(T12M )(%),t12m_pct,T12M,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Vendor Confirmation Rate - Sourceable(T12M )(%),t12m_pct,T12M,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,ASP(T12M ),t12m_only,T12M,ASP,,False,Average_Selling_Price,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,CM(T12M )(%),t12m_pct,T12M,CM,%,True,Contribution_Margin,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,CP($)(T12M ),currency_t12m,T12M,CP,$,False,Cost_Price,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts($)(T12M ),currency_t12m,T12M,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts (Units)(T12M ),units_t12m,T12M,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,CCOGS As A % Of PCOGS(T12M )(%),t12m_pct,T12M,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,PPM(T12M )(%),t12m_pct,T12M,PPM,%,True,PPM,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,External Box Price Competitiveness (% Of GV)(T12M )(%),t12m_pct,T12M,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Net Ordered Units(T12M ),t12m_only,T12M,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,Customer Returns($)(T12M ),currency_t12m,T12M,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T12M_T072Y_brightstar_AE_2026018-DoNotShareExternally.csv,IDQ Score(T12M ),t12m_only,T12M,IDQ Score,,False,IDQ_Score,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,List Price($)(T12M ),currency_t12m,T12M,List Price,$,False,List_Price,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Product GMS($)(T12M ),currency_t12m,T12M,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Deal GMS($)(T12M ),currency_t12m,T12M,Deal GMS,$,False,Deal_GMS,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Net PPM(T12M )(%),t12m_pct,T12M,Net PPM,%,True,Net_PPM,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,GV(T12M ),t12m_only,T12M,GV,,False,Glance_Views,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Amzn GV(T12M ),t12m_only,T12M,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,SoROOS(%)(T12M )(%),pct_metric_t12m_pct,T12M,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Daily SoRoos%(T12M )(%),pct_suffix_t12m_pct,T12M,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Fill Rate - Sourceable(T12M )(%),t12m_pct,T12M,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Vendor Confirmation Rate - Sourceable(T12M )(%),t12m_pct,T12M,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,ASP(T12M ),t12m_only,T12M,ASP,,False,Average_Selling_Price,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,CM(T12M )(%),t12m_pct,T12M,CM,%,True,Contribution_Margin,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,CP($)(T12M ),currency_t12m,T12M,CP,$,False,Cost_Price,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts($)(T12M ),currency_t12m,T12M,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Net Receipts (Units)(T12M ),units_t12m,T12M,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,CCOGS As A % Of PCOGS(T12M )(%),t12m_pct,T12M,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,PPM(T12M )(%),t12m_pct,T12M,PPM,%,True,PPM,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,External Box Price Competitiveness (% Of GV)(T12M )(%),t12m_pct,T12M,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Net Ordered Units(T12M ),t12m_only,T12M,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,Customer Returns($)(T12M ),currency_t12m,T12M,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T12M_WJTPX_brightstar_AE_2026018-DoNotShareExternally.csv,IDQ Score(T12M ),t12m_only,T12M,IDQ Score,,False,IDQ_Score,HIGH,OK
+4Y29Z-W49-W52.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+4Y29Z-W49-W52.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+4Y29Z-W49-W52.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+4Y29Z-W49-W52.csv,List Price($)(Week 50 ),currency_week,Week 50,List Price,$,False,List_Price,HIGH,OK
+4Y29Z-W49-W52.csv,List Price($)(Week 51 ),currency_week,Week 51,List Price,$,False,List_Price,HIGH,OK
+4Y29Z-W49-W52.csv,List Price($)(Week 52 ),currency_week,Week 52,List Price,$,False,List_Price,HIGH,OK
+4Y29Z-W49-W52.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Product GMS($)(Week 50 ),currency_week,Week 50,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Product GMS($)(Week 51 ),currency_week,Week 51,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Product GMS($)(Week 52 ),currency_week,Week 52,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+4Y29Z-W49-W52.csv,ASP(Week 50 ),week_only,Week 50,ASP,,False,Average_Selling_Price,HIGH,OK
+4Y29Z-W49-W52.csv,ASP(Week 51 ),week_only,Week 51,ASP,,False,Average_Selling_Price,HIGH,OK
+4Y29Z-W49-W52.csv,ASP(Week 52 ),week_only,Week 52,ASP,,False,Average_Selling_Price,HIGH,OK
+4Y29Z-W49-W52.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+4Y29Z-W49-W52.csv,CM(Week 50 )(%),week_pct,Week 50,CM,%,True,Contribution_Margin,HIGH,OK
+4Y29Z-W49-W52.csv,CM(Week 51 )(%),week_pct,Week 51,CM,%,True,Contribution_Margin,HIGH,OK
+4Y29Z-W49-W52.csv,CM(Week 52 )(%),week_pct,Week 52,CM,%,True,Contribution_Margin,HIGH,OK
+4Y29Z-W49-W52.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+4Y29Z-W49-W52.csv,CP($)(Week 50 ),currency_week,Week 50,CP,$,False,Cost_Price,HIGH,OK
+4Y29Z-W49-W52.csv,CP($)(Week 51 ),currency_week,Week 51,CP,$,False,Cost_Price,HIGH,OK
+4Y29Z-W49-W52.csv,CP($)(Week 52 ),currency_week,Week 52,CP,$,False,Cost_Price,HIGH,OK
+4Y29Z-W49-W52.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+4Y29Z-W49-W52.csv,Net PPM(Week 50 )(%),week_pct,Week 50,Net PPM,%,True,Net_PPM,HIGH,OK
+4Y29Z-W49-W52.csv,Net PPM(Week 51 )(%),week_pct,Week 51,Net PPM,%,True,Net_PPM,HIGH,OK
+4Y29Z-W49-W52.csv,Net PPM(Week 52 )(%),week_pct,Week 52,Net PPM,%,True,Net_PPM,HIGH,OK
+4Y29Z-W49-W52.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,GV(Week 50 ),week_only,Week 50,GV,,False,Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,GV(Week 51 ),week_only,Week 51,GV,,False,Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,GV(Week 52 ),week_only,Week 52,GV,,False,Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,SoROOS(%)(Week 50 )(%),pct_metric_week_pct,Week 50,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,SoROOS(%)(Week 51 )(%),pct_metric_week_pct,Week 51,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,SoROOS(%)(Week 52 )(%),pct_metric_week_pct,Week 52,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+4Y29Z-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+4Y29Z-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+4Y29Z-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+4Y29Z-W49-W52.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+4Y29Z-W49-W52.csv,Fill Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+4Y29Z-W49-W52.csv,Fill Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+4Y29Z-W49-W52.csv,Fill Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+4Y29Z-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+4Y29Z-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 50 ),week_only,Week 50,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+4Y29Z-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 51 ),week_only,Week 51,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+4Y29Z-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 52 ),week_only,Week 52,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+4Y29Z-W49-W52.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+4Y29Z-W49-W52.csv,Total GMM($)(Week 50 ),currency_week,Week 50,Total GMM,$,False,Total_GMM,HIGH,OK
+4Y29Z-W49-W52.csv,Total GMM($)(Week 51 ),currency_week,Week 51,Total GMM,$,False,Total_GMM,HIGH,OK
+4Y29Z-W49-W52.csv,Total GMM($)(Week 52 ),currency_week,Week 52,Total GMM,$,False,Total_GMM,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts($)(Week 50 ),currency_week,Week 50,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts($)(Week 51 ),currency_week,Week 51,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts($)(Week 52 ),currency_week,Week 52,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts (Units)(Week 50 ),units_week,Week 50,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts (Units)(Week 51 ),units_week,Week 51,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,Net Receipts (Units)(Week 52 ),units_week,Week 52,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+4Y29Z-W49-W52.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+4Y29Z-W49-W52.csv,CCOGS As A % Of PCOGS(Week 50 )(%),week_pct,Week 50,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+4Y29Z-W49-W52.csv,CCOGS As A % Of PCOGS(Week 51 )(%),week_pct,Week 51,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+4Y29Z-W49-W52.csv,CCOGS As A % Of PCOGS(Week 52 )(%),week_pct,Week 52,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+4Y29Z-W49-W52.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+4Y29Z-W49-W52.csv,PPM(Week 50 )(%),week_pct,Week 50,PPM,%,True,PPM,HIGH,OK
+4Y29Z-W49-W52.csv,PPM(Week 51 )(%),week_pct,Week 51,PPM,%,True,PPM,HIGH,OK
+4Y29Z-W49-W52.csv,PPM(Week 52 )(%),week_pct,Week 52,PPM,%,True,PPM,HIGH,OK
+4Y29Z-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+4Y29Z-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 50 )(%),week_pct,Week 50,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+4Y29Z-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 51 )(%),week_pct,Week 51,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+4Y29Z-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 52 )(%),week_pct,Week 52,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+4Y29Z-W49-W52.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,Amzn GV(Week 50 ),week_only,Week 50,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,Amzn GV(Week 51 ),week_only,Week 51,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,Amzn GV(Week 52 ),week_only,Week 52,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+4Y29Z-W49-W52.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+4Y29Z-W49-W52.csv,Customer Returns($)(Week 50 ),currency_week,Week 50,Customer Returns,$,False,Customer_Returns,HIGH,OK
+4Y29Z-W49-W52.csv,Customer Returns($)(Week 51 ),currency_week,Week 51,Customer Returns,$,False,Customer_Returns,HIGH,OK
+4Y29Z-W49-W52.csv,Customer Returns($)(Week 52 ),currency_week,Week 52,Customer Returns,$,False,Customer_Returns,HIGH,OK
+4Y29Z-W49-W52.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,Daily SoRoos%(Week 50 )(%),pct_suffix_week_pct,Week 50,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,Daily SoRoos%(Week 51 )(%),pct_suffix_week_pct,Week 51,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,Daily SoRoos%(Week 52 )(%),pct_suffix_week_pct,Week 52,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+4Y29Z-W49-W52.csv,IDQ Score(Week 49 ),week_only,Week 49,IDQ Score,,False,IDQ_Score,HIGH,OK
+4Y29Z-W49-W52.csv,IDQ Score(Week 50 ),week_only,Week 50,IDQ Score,,False,IDQ_Score,HIGH,OK
+4Y29Z-W49-W52.csv,IDQ Score(Week 51 ),week_only,Week 51,IDQ Score,,False,IDQ_Score,HIGH,OK
+4Y29Z-W49-W52.csv,IDQ Score(Week 52 ),week_only,Week 52,IDQ Score,,False,IDQ_Score,HIGH,OK
+4Y29Z-W49-W52.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+4Y29Z-W49-W52.csv,Net Ordered Units(Week 50 ),week_only,Week 50,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+4Y29Z-W49-W52.csv,Net Ordered Units(Week 51 ),week_only,Week 51,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+4Y29Z-W49-W52.csv,Net Ordered Units(Week 52 ),week_only,Week 52,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+KY2O0-Nov2-23-2025.csv,List Price($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,List Price,$,False,List_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,List Price($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,List Price,$,False,List_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,List Price($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,List Price,$,False,List_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,List Price($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,List Price,$,False,List_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Product GMS($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Product GMS($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Product GMS($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Product GMS($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,ASP(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,ASP(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,ASP(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,ASP(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CP($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CP($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CP($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CP($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,GV,,False,Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,GV,,False,Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,GV,,False,Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,GV,,False,Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SoROOS(%)(11/23/2025-11/30/2025)(%),pct_metric_daterange_pct,11/23/2025-11/30/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SoROOS(%)(11/16/2025-11/23/2025)(%),pct_metric_daterange_pct,11/16/2025-11/23/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SoROOS(%)(11/09/2025-11/16/2025)(%),pct_metric_daterange_pct,11/09/2025-11/16/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SoROOS(%)(11/02/2025-11/09/2025)(%),pct_metric_daterange_pct,11/02/2025-11/09/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Fill Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Fill Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Fill Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Fill Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Total GMM($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Total GMM($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Total GMM($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Total GMM($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts (Units)(11/23/2025-11/30/2025),units_daterange,11/23/2025-11/30/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts (Units)(11/16/2025-11/23/2025),units_daterange,11/16/2025-11/23/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts (Units)(11/09/2025-11/16/2025),units_daterange,11/09/2025-11/16/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Receipts (Units)(11/02/2025-11/09/2025),units_daterange,11/02/2025-11/09/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-Nov2-23-2025.csv,PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,PPM,%,True,PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,PPM,%,True,PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,PPM,%,True,PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,PPM,%,True,PPM,HIGH,OK
+KY2O0-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Amzn GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Amzn GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Amzn GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Amzn GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Customer Returns($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Customer Returns($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Customer Returns($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Customer Returns($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Daily SoRoos%(11/23/2025-11/30/2025)(%),pct_suffix_daterange_pct,11/23/2025-11/30/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Daily SoRoos%(11/16/2025-11/23/2025)(%),pct_suffix_daterange_pct,11/16/2025-11/23/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Daily SoRoos%(11/09/2025-11/16/2025)(%),pct_suffix_daterange_pct,11/09/2025-11/16/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Daily SoRoos%(11/02/2025-11/09/2025)(%),pct_suffix_daterange_pct,11/02/2025-11/09/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Ordered Units(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Ordered Units(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Ordered Units(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-Nov2-23-2025.csv,Net Ordered Units(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-W49-W52.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+KY2O0-W49-W52.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+KY2O0-W49-W52.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+KY2O0-W49-W52.csv,List Price($)(Week 50 ),currency_week,Week 50,List Price,$,False,List_Price,HIGH,OK
+KY2O0-W49-W52.csv,List Price($)(Week 51 ),currency_week,Week 51,List Price,$,False,List_Price,HIGH,OK
+KY2O0-W49-W52.csv,List Price($)(Week 52 ),currency_week,Week 52,List Price,$,False,List_Price,HIGH,OK
+KY2O0-W49-W52.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Product GMS($)(Week 50 ),currency_week,Week 50,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Product GMS($)(Week 51 ),currency_week,Week 51,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Product GMS($)(Week 52 ),currency_week,Week 52,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-W49-W52.csv,ASP(Week 50 ),week_only,Week 50,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-W49-W52.csv,ASP(Week 51 ),week_only,Week 51,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-W49-W52.csv,ASP(Week 52 ),week_only,Week 52,ASP,,False,Average_Selling_Price,HIGH,OK
+KY2O0-W49-W52.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-W49-W52.csv,CM(Week 50 )(%),week_pct,Week 50,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-W49-W52.csv,CM(Week 51 )(%),week_pct,Week 51,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-W49-W52.csv,CM(Week 52 )(%),week_pct,Week 52,CM,%,True,Contribution_Margin,HIGH,OK
+KY2O0-W49-W52.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-W49-W52.csv,CP($)(Week 50 ),currency_week,Week 50,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-W49-W52.csv,CP($)(Week 51 ),currency_week,Week 51,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-W49-W52.csv,CP($)(Week 52 ),currency_week,Week 52,CP,$,False,Cost_Price,HIGH,OK
+KY2O0-W49-W52.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-W49-W52.csv,Net PPM(Week 50 )(%),week_pct,Week 50,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-W49-W52.csv,Net PPM(Week 51 )(%),week_pct,Week 51,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-W49-W52.csv,Net PPM(Week 52 )(%),week_pct,Week 52,Net PPM,%,True,Net_PPM,HIGH,OK
+KY2O0-W49-W52.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,GV(Week 50 ),week_only,Week 50,GV,,False,Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,GV(Week 51 ),week_only,Week 51,GV,,False,Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,GV(Week 52 ),week_only,Week 52,GV,,False,Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-W49-W52.csv,SoROOS(%)(Week 50 )(%),pct_metric_week_pct,Week 50,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-W49-W52.csv,SoROOS(%)(Week 51 )(%),pct_metric_week_pct,Week 51,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-W49-W52.csv,SoROOS(%)(Week 52 )(%),pct_metric_week_pct,Week 52,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+KY2O0-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+KY2O0-W49-W52.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-W49-W52.csv,Fill Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-W49-W52.csv,Fill Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-W49-W52.csv,Fill Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+KY2O0-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 50 ),week_only,Week 50,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 51 ),week_only,Week 51,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 52 ),week_only,Week 52,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+KY2O0-W49-W52.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-W49-W52.csv,Total GMM($)(Week 50 ),currency_week,Week 50,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-W49-W52.csv,Total GMM($)(Week 51 ),currency_week,Week 51,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-W49-W52.csv,Total GMM($)(Week 52 ),currency_week,Week 52,Total GMM,$,False,Total_GMM,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts($)(Week 50 ),currency_week,Week 50,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts($)(Week 51 ),currency_week,Week 51,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts($)(Week 52 ),currency_week,Week 52,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts (Units)(Week 50 ),units_week,Week 50,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts (Units)(Week 51 ),units_week,Week 51,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,Net Receipts (Units)(Week 52 ),units_week,Week 52,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+KY2O0-W49-W52.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-W49-W52.csv,CCOGS As A % Of PCOGS(Week 50 )(%),week_pct,Week 50,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-W49-W52.csv,CCOGS As A % Of PCOGS(Week 51 )(%),week_pct,Week 51,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-W49-W52.csv,CCOGS As A % Of PCOGS(Week 52 )(%),week_pct,Week 52,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+KY2O0-W49-W52.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+KY2O0-W49-W52.csv,PPM(Week 50 )(%),week_pct,Week 50,PPM,%,True,PPM,HIGH,OK
+KY2O0-W49-W52.csv,PPM(Week 51 )(%),week_pct,Week 51,PPM,%,True,PPM,HIGH,OK
+KY2O0-W49-W52.csv,PPM(Week 52 )(%),week_pct,Week 52,PPM,%,True,PPM,HIGH,OK
+KY2O0-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 50 )(%),week_pct,Week 50,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 51 )(%),week_pct,Week 51,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 52 )(%),week_pct,Week 52,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+KY2O0-W49-W52.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,Amzn GV(Week 50 ),week_only,Week 50,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,Amzn GV(Week 51 ),week_only,Week 51,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,Amzn GV(Week 52 ),week_only,Week 52,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+KY2O0-W49-W52.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-W49-W52.csv,Customer Returns($)(Week 50 ),currency_week,Week 50,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-W49-W52.csv,Customer Returns($)(Week 51 ),currency_week,Week 51,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-W49-W52.csv,Customer Returns($)(Week 52 ),currency_week,Week 52,Customer Returns,$,False,Customer_Returns,HIGH,OK
+KY2O0-W49-W52.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-W49-W52.csv,Daily SoRoos%(Week 50 )(%),pct_suffix_week_pct,Week 50,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-W49-W52.csv,Daily SoRoos%(Week 51 )(%),pct_suffix_week_pct,Week 51,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-W49-W52.csv,Daily SoRoos%(Week 52 )(%),pct_suffix_week_pct,Week 52,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+KY2O0-W49-W52.csv,IDQ Score(Week 49 ),week_only,Week 49,IDQ Score,,False,IDQ_Score,HIGH,OK
+KY2O0-W49-W52.csv,IDQ Score(Week 50 ),week_only,Week 50,IDQ Score,,False,IDQ_Score,HIGH,OK
+KY2O0-W49-W52.csv,IDQ Score(Week 51 ),week_only,Week 51,IDQ Score,,False,IDQ_Score,HIGH,OK
+KY2O0-W49-W52.csv,IDQ Score(Week 52 ),week_only,Week 52,IDQ Score,,False,IDQ_Score,HIGH,OK
+KY2O0-W49-W52.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-W49-W52.csv,Net Ordered Units(Week 50 ),week_only,Week 50,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-W49-W52.csv,Net Ordered Units(Week 51 ),week_only,Week 51,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+KY2O0-W49-W52.csv,Net Ordered Units(Week 52 ),week_only,Week 52,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+SWM6A-Nov2-23-2025.csv,List Price($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,List Price,$,False,List_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,List Price($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,List Price,$,False,List_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,List Price($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,List Price,$,False,List_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,List Price($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,List Price,$,False,List_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Product GMS($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Product GMS($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Product GMS($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Product GMS($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,ASP(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,ASP(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,ASP(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,ASP(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CP($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CP($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CP($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CP($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,GV,,False,Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,GV,,False,Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,GV,,False,Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,GV,,False,Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SoROOS(%)(11/23/2025-11/30/2025)(%),pct_metric_daterange_pct,11/23/2025-11/30/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SoROOS(%)(11/16/2025-11/23/2025)(%),pct_metric_daterange_pct,11/16/2025-11/23/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SoROOS(%)(11/09/2025-11/16/2025)(%),pct_metric_daterange_pct,11/09/2025-11/16/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SoROOS(%)(11/02/2025-11/09/2025)(%),pct_metric_daterange_pct,11/02/2025-11/09/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Fill Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Fill Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Fill Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Fill Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Total GMM($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Total GMM($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Total GMM($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Total GMM($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts (Units)(11/23/2025-11/30/2025),units_daterange,11/23/2025-11/30/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts (Units)(11/16/2025-11/23/2025),units_daterange,11/16/2025-11/23/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts (Units)(11/09/2025-11/16/2025),units_daterange,11/09/2025-11/16/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Receipts (Units)(11/02/2025-11/09/2025),units_daterange,11/02/2025-11/09/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-Nov2-23-2025.csv,PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,PPM,%,True,PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,PPM,%,True,PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,PPM,%,True,PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,PPM,%,True,PPM,HIGH,OK
+SWM6A-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Amzn GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Amzn GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Amzn GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Amzn GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Customer Returns($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Customer Returns($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Customer Returns($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Customer Returns($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Daily SoRoos%(11/23/2025-11/30/2025)(%),pct_suffix_daterange_pct,11/23/2025-11/30/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Daily SoRoos%(11/16/2025-11/23/2025)(%),pct_suffix_daterange_pct,11/16/2025-11/23/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Daily SoRoos%(11/09/2025-11/16/2025)(%),pct_suffix_daterange_pct,11/09/2025-11/16/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Daily SoRoos%(11/02/2025-11/09/2025)(%),pct_suffix_daterange_pct,11/02/2025-11/09/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Ordered Units(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Ordered Units(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Ordered Units(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-Nov2-23-2025.csv,Net Ordered Units(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-W49-W52.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+SWM6A-W49-W52.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+SWM6A-W49-W52.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+SWM6A-W49-W52.csv,List Price($)(Week 50 ),currency_week,Week 50,List Price,$,False,List_Price,HIGH,OK
+SWM6A-W49-W52.csv,List Price($)(Week 51 ),currency_week,Week 51,List Price,$,False,List_Price,HIGH,OK
+SWM6A-W49-W52.csv,List Price($)(Week 52 ),currency_week,Week 52,List Price,$,False,List_Price,HIGH,OK
+SWM6A-W49-W52.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Product GMS($)(Week 50 ),currency_week,Week 50,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Product GMS($)(Week 51 ),currency_week,Week 51,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Product GMS($)(Week 52 ),currency_week,Week 52,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-W49-W52.csv,ASP(Week 50 ),week_only,Week 50,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-W49-W52.csv,ASP(Week 51 ),week_only,Week 51,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-W49-W52.csv,ASP(Week 52 ),week_only,Week 52,ASP,,False,Average_Selling_Price,HIGH,OK
+SWM6A-W49-W52.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-W49-W52.csv,CM(Week 50 )(%),week_pct,Week 50,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-W49-W52.csv,CM(Week 51 )(%),week_pct,Week 51,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-W49-W52.csv,CM(Week 52 )(%),week_pct,Week 52,CM,%,True,Contribution_Margin,HIGH,OK
+SWM6A-W49-W52.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-W49-W52.csv,CP($)(Week 50 ),currency_week,Week 50,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-W49-W52.csv,CP($)(Week 51 ),currency_week,Week 51,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-W49-W52.csv,CP($)(Week 52 ),currency_week,Week 52,CP,$,False,Cost_Price,HIGH,OK
+SWM6A-W49-W52.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-W49-W52.csv,Net PPM(Week 50 )(%),week_pct,Week 50,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-W49-W52.csv,Net PPM(Week 51 )(%),week_pct,Week 51,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-W49-W52.csv,Net PPM(Week 52 )(%),week_pct,Week 52,Net PPM,%,True,Net_PPM,HIGH,OK
+SWM6A-W49-W52.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,GV(Week 50 ),week_only,Week 50,GV,,False,Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,GV(Week 51 ),week_only,Week 51,GV,,False,Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,GV(Week 52 ),week_only,Week 52,GV,,False,Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-W49-W52.csv,SoROOS(%)(Week 50 )(%),pct_metric_week_pct,Week 50,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-W49-W52.csv,SoROOS(%)(Week 51 )(%),pct_metric_week_pct,Week 51,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-W49-W52.csv,SoROOS(%)(Week 52 )(%),pct_metric_week_pct,Week 52,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+SWM6A-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+SWM6A-W49-W52.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-W49-W52.csv,Fill Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-W49-W52.csv,Fill Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-W49-W52.csv,Fill Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+SWM6A-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 50 ),week_only,Week 50,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 51 ),week_only,Week 51,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 52 ),week_only,Week 52,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+SWM6A-W49-W52.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-W49-W52.csv,Total GMM($)(Week 50 ),currency_week,Week 50,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-W49-W52.csv,Total GMM($)(Week 51 ),currency_week,Week 51,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-W49-W52.csv,Total GMM($)(Week 52 ),currency_week,Week 52,Total GMM,$,False,Total_GMM,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts($)(Week 50 ),currency_week,Week 50,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts($)(Week 51 ),currency_week,Week 51,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts($)(Week 52 ),currency_week,Week 52,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts (Units)(Week 50 ),units_week,Week 50,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts (Units)(Week 51 ),units_week,Week 51,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,Net Receipts (Units)(Week 52 ),units_week,Week 52,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+SWM6A-W49-W52.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-W49-W52.csv,CCOGS As A % Of PCOGS(Week 50 )(%),week_pct,Week 50,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-W49-W52.csv,CCOGS As A % Of PCOGS(Week 51 )(%),week_pct,Week 51,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-W49-W52.csv,CCOGS As A % Of PCOGS(Week 52 )(%),week_pct,Week 52,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+SWM6A-W49-W52.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+SWM6A-W49-W52.csv,PPM(Week 50 )(%),week_pct,Week 50,PPM,%,True,PPM,HIGH,OK
+SWM6A-W49-W52.csv,PPM(Week 51 )(%),week_pct,Week 51,PPM,%,True,PPM,HIGH,OK
+SWM6A-W49-W52.csv,PPM(Week 52 )(%),week_pct,Week 52,PPM,%,True,PPM,HIGH,OK
+SWM6A-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 50 )(%),week_pct,Week 50,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 51 )(%),week_pct,Week 51,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 52 )(%),week_pct,Week 52,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+SWM6A-W49-W52.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,Amzn GV(Week 50 ),week_only,Week 50,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,Amzn GV(Week 51 ),week_only,Week 51,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,Amzn GV(Week 52 ),week_only,Week 52,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+SWM6A-W49-W52.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-W49-W52.csv,Customer Returns($)(Week 50 ),currency_week,Week 50,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-W49-W52.csv,Customer Returns($)(Week 51 ),currency_week,Week 51,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-W49-W52.csv,Customer Returns($)(Week 52 ),currency_week,Week 52,Customer Returns,$,False,Customer_Returns,HIGH,OK
+SWM6A-W49-W52.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-W49-W52.csv,Daily SoRoos%(Week 50 )(%),pct_suffix_week_pct,Week 50,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-W49-W52.csv,Daily SoRoos%(Week 51 )(%),pct_suffix_week_pct,Week 51,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-W49-W52.csv,Daily SoRoos%(Week 52 )(%),pct_suffix_week_pct,Week 52,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+SWM6A-W49-W52.csv,IDQ Score(Week 49 ),week_only,Week 49,IDQ Score,,False,IDQ_Score,HIGH,OK
+SWM6A-W49-W52.csv,IDQ Score(Week 50 ),week_only,Week 50,IDQ Score,,False,IDQ_Score,HIGH,OK
+SWM6A-W49-W52.csv,IDQ Score(Week 51 ),week_only,Week 51,IDQ Score,,False,IDQ_Score,HIGH,OK
+SWM6A-W49-W52.csv,IDQ Score(Week 52 ),week_only,Week 52,IDQ Score,,False,IDQ_Score,HIGH,OK
+SWM6A-W49-W52.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-W49-W52.csv,Net Ordered Units(Week 50 ),week_only,Week 50,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-W49-W52.csv,Net Ordered Units(Week 51 ),week_only,Week 51,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+SWM6A-W49-W52.csv,Net Ordered Units(Week 52 ),week_only,Week 52,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T072Y-Nov2-23-2025.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T072Y-Nov2-23-2025.csv,List Price($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,List Price,$,False,List_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,List Price($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,List Price,$,False,List_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,List Price($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,List Price,$,False,List_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,List Price($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,List Price,$,False,List_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,Product GMS($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Product GMS($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Product GMS($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Product GMS($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,ASP(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,ASP(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,ASP(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,ASP(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,CM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-Nov2-23-2025.csv,CM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-Nov2-23-2025.csv,CM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-Nov2-23-2025.csv,CM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-Nov2-23-2025.csv,CP($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,CP,$,False,Cost_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,CP($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,CP,$,False,Cost_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,CP($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,CP,$,False,Cost_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,CP($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,CP,$,False,Cost_Price,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,GV,,False,Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,GV,,False,Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,GV,,False,Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,GV,,False,Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,SoROOS(%)(11/23/2025-11/30/2025)(%),pct_metric_daterange_pct,11/23/2025-11/30/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,SoROOS(%)(11/16/2025-11/23/2025)(%),pct_metric_daterange_pct,11/16/2025-11/23/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,SoROOS(%)(11/09/2025-11/16/2025)(%),pct_metric_daterange_pct,11/09/2025-11/16/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,SoROOS(%)(11/02/2025-11/09/2025)(%),pct_metric_daterange_pct,11/02/2025-11/09/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-Nov2-23-2025.csv,Vendor Confirmation Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-Nov2-23-2025.csv,Fill Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-Nov2-23-2025.csv,Fill Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-Nov2-23-2025.csv,Fill Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-Nov2-23-2025.csv,Fill Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,SELLABLE_ON_HAND_UNITS(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,Total GMM($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Total GMM($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Total GMM($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Total GMM($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts (Units)(11/23/2025-11/30/2025),units_daterange,11/23/2025-11/30/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts (Units)(11/16/2025-11/23/2025),units_daterange,11/16/2025-11/23/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts (Units)(11/09/2025-11/16/2025),units_daterange,11/09/2025-11/16/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Receipts (Units)(11/02/2025-11/09/2025),units_daterange,11/02/2025-11/09/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-Nov2-23-2025.csv,CCOGS As A % Of PCOGS(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-Nov2-23-2025.csv,PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,PPM,%,True,PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,PPM,%,True,PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,PPM,%,True,PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,PPM,%,True,PPM,HIGH,OK
+T072Y-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-Nov2-23-2025.csv,External Box Price Competitiveness (% Of GV)(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-Nov2-23-2025.csv,Amzn GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,Amzn GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,Amzn GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,Amzn GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-Nov2-23-2025.csv,Customer Returns($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-Nov2-23-2025.csv,Customer Returns($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-Nov2-23-2025.csv,Customer Returns($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-Nov2-23-2025.csv,Customer Returns($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-Nov2-23-2025.csv,Daily SoRoos%(11/23/2025-11/30/2025)(%),pct_suffix_daterange_pct,11/23/2025-11/30/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,Daily SoRoos%(11/16/2025-11/23/2025)(%),pct_suffix_daterange_pct,11/16/2025-11/23/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,Daily SoRoos%(11/09/2025-11/16/2025)(%),pct_suffix_daterange_pct,11/09/2025-11/16/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,Daily SoRoos%(11/02/2025-11/09/2025)(%),pct_suffix_daterange_pct,11/02/2025-11/09/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Ordered Units(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Ordered Units(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Ordered Units(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-Nov2-23-2025.csv,Net Ordered Units(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-W49-W52.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+T072Y-W49-W52.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+T072Y-W49-W52.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+T072Y-W49-W52.csv,List Price($)(Week 50 ),currency_week,Week 50,List Price,$,False,List_Price,HIGH,OK
+T072Y-W49-W52.csv,List Price($)(Week 51 ),currency_week,Week 51,List Price,$,False,List_Price,HIGH,OK
+T072Y-W49-W52.csv,List Price($)(Week 52 ),currency_week,Week 52,List Price,$,False,List_Price,HIGH,OK
+T072Y-W49-W52.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Product GMS($)(Week 50 ),currency_week,Week 50,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Product GMS($)(Week 51 ),currency_week,Week 51,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Product GMS($)(Week 52 ),currency_week,Week 52,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+T072Y-W49-W52.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-W49-W52.csv,ASP(Week 50 ),week_only,Week 50,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-W49-W52.csv,ASP(Week 51 ),week_only,Week 51,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-W49-W52.csv,ASP(Week 52 ),week_only,Week 52,ASP,,False,Average_Selling_Price,HIGH,OK
+T072Y-W49-W52.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-W49-W52.csv,CM(Week 50 )(%),week_pct,Week 50,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-W49-W52.csv,CM(Week 51 )(%),week_pct,Week 51,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-W49-W52.csv,CM(Week 52 )(%),week_pct,Week 52,CM,%,True,Contribution_Margin,HIGH,OK
+T072Y-W49-W52.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+T072Y-W49-W52.csv,CP($)(Week 50 ),currency_week,Week 50,CP,$,False,Cost_Price,HIGH,OK
+T072Y-W49-W52.csv,CP($)(Week 51 ),currency_week,Week 51,CP,$,False,Cost_Price,HIGH,OK
+T072Y-W49-W52.csv,CP($)(Week 52 ),currency_week,Week 52,CP,$,False,Cost_Price,HIGH,OK
+T072Y-W49-W52.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-W49-W52.csv,Net PPM(Week 50 )(%),week_pct,Week 50,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-W49-W52.csv,Net PPM(Week 51 )(%),week_pct,Week 51,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-W49-W52.csv,Net PPM(Week 52 )(%),week_pct,Week 52,Net PPM,%,True,Net_PPM,HIGH,OK
+T072Y-W49-W52.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,GV(Week 50 ),week_only,Week 50,GV,,False,Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,GV(Week 51 ),week_only,Week 51,GV,,False,Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,GV(Week 52 ),week_only,Week 52,GV,,False,Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-W49-W52.csv,SoROOS(%)(Week 50 )(%),pct_metric_week_pct,Week 50,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-W49-W52.csv,SoROOS(%)(Week 51 )(%),pct_metric_week_pct,Week 51,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-W49-W52.csv,SoROOS(%)(Week 52 )(%),pct_metric_week_pct,Week 52,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+T072Y-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-W49-W52.csv,Vendor Confirmation Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+T072Y-W49-W52.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-W49-W52.csv,Fill Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-W49-W52.csv,Fill Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-W49-W52.csv,Fill Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+T072Y-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 50 ),week_only,Week 50,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 51 ),week_only,Week 51,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-W49-W52.csv,SELLABLE_ON_HAND_UNITS(Week 52 ),week_only,Week 52,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+T072Y-W49-W52.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-W49-W52.csv,Total GMM($)(Week 50 ),currency_week,Week 50,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-W49-W52.csv,Total GMM($)(Week 51 ),currency_week,Week 51,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-W49-W52.csv,Total GMM($)(Week 52 ),currency_week,Week 52,Total GMM,$,False,Total_GMM,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts($)(Week 50 ),currency_week,Week 50,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts($)(Week 51 ),currency_week,Week 51,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts($)(Week 52 ),currency_week,Week 52,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts (Units)(Week 50 ),units_week,Week 50,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts (Units)(Week 51 ),units_week,Week 51,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,Net Receipts (Units)(Week 52 ),units_week,Week 52,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+T072Y-W49-W52.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-W49-W52.csv,CCOGS As A % Of PCOGS(Week 50 )(%),week_pct,Week 50,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-W49-W52.csv,CCOGS As A % Of PCOGS(Week 51 )(%),week_pct,Week 51,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-W49-W52.csv,CCOGS As A % Of PCOGS(Week 52 )(%),week_pct,Week 52,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+T072Y-W49-W52.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+T072Y-W49-W52.csv,PPM(Week 50 )(%),week_pct,Week 50,PPM,%,True,PPM,HIGH,OK
+T072Y-W49-W52.csv,PPM(Week 51 )(%),week_pct,Week 51,PPM,%,True,PPM,HIGH,OK
+T072Y-W49-W52.csv,PPM(Week 52 )(%),week_pct,Week 52,PPM,%,True,PPM,HIGH,OK
+T072Y-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 50 )(%),week_pct,Week 50,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 51 )(%),week_pct,Week 51,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-W49-W52.csv,External Box Price Competitiveness (% Of GV)(Week 52 )(%),week_pct,Week 52,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+T072Y-W49-W52.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,Amzn GV(Week 50 ),week_only,Week 50,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,Amzn GV(Week 51 ),week_only,Week 51,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,Amzn GV(Week 52 ),week_only,Week 52,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+T072Y-W49-W52.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-W49-W52.csv,Customer Returns($)(Week 50 ),currency_week,Week 50,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-W49-W52.csv,Customer Returns($)(Week 51 ),currency_week,Week 51,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-W49-W52.csv,Customer Returns($)(Week 52 ),currency_week,Week 52,Customer Returns,$,False,Customer_Returns,HIGH,OK
+T072Y-W49-W52.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-W49-W52.csv,Daily SoRoos%(Week 50 )(%),pct_suffix_week_pct,Week 50,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-W49-W52.csv,Daily SoRoos%(Week 51 )(%),pct_suffix_week_pct,Week 51,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-W49-W52.csv,Daily SoRoos%(Week 52 )(%),pct_suffix_week_pct,Week 52,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+T072Y-W49-W52.csv,IDQ Score(Week 49 ),week_only,Week 49,IDQ Score,,False,IDQ_Score,HIGH,OK
+T072Y-W49-W52.csv,IDQ Score(Week 50 ),week_only,Week 50,IDQ Score,,False,IDQ_Score,HIGH,OK
+T072Y-W49-W52.csv,IDQ Score(Week 51 ),week_only,Week 51,IDQ Score,,False,IDQ_Score,HIGH,OK
+T072Y-W49-W52.csv,IDQ Score(Week 52 ),week_only,Week 52,IDQ Score,,False,IDQ_Score,HIGH,OK
+T072Y-W49-W52.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-W49-W52.csv,Net Ordered Units(Week 50 ),week_only,Week 50,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-W49-W52.csv,Net Ordered Units(Week 51 ),week_only,Week 51,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+T072Y-W49-W52.csv,Net Ordered Units(Week 52 ),week_only,Week 52,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,List Price($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,List Price,$,False,List_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,List Price($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,List Price,$,False,List_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,List Price($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,List Price,$,False,List_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Product GMS($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Product GMS($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Product GMS($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,ASP(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,ASP(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,ASP(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CP($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CP($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CP($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,GV,,False,Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,GV,,False,Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,GV,,False,Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SoROOS(%)(11/16/2025-11/23/2025)(%),pct_metric_daterange_pct,11/16/2025-11/23/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SoROOS(%)(11/09/2025-11/16/2025)(%),pct_metric_daterange_pct,11/09/2025-11/16/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SoROOS(%)(11/02/2025-11/09/2025)(%),pct_metric_daterange_pct,11/02/2025-11/09/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Vendor Confirmation Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Vendor Confirmation Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Vendor Confirmation Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Fill Rate - Sourceable(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Fill Rate - Sourceable(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Fill Rate - Sourceable(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SELLABLE_ON_HAND_UNITS(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SELLABLE_ON_HAND_UNITS(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,SELLABLE_ON_HAND_UNITS(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Total GMM($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Total GMM($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Total GMM($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts (Units)(11/16/2025-11/23/2025),units_daterange,11/16/2025-11/23/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts (Units)(11/09/2025-11/16/2025),units_daterange,11/09/2025-11/16/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Receipts (Units)(11/02/2025-11/09/2025),units_daterange,11/02/2025-11/09/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CCOGS As A % Of PCOGS(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CCOGS As A % Of PCOGS(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,CCOGS As A % Of PCOGS(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,PPM(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,PPM,%,True,PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,PPM(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,PPM,%,True,PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,PPM(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,PPM,%,True,PPM,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,External Box Price Competitiveness (% Of GV)(11/16/2025-11/23/2025)(%),daterange_pct,11/16/2025-11/23/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,External Box Price Competitiveness (% Of GV)(11/09/2025-11/16/2025)(%),daterange_pct,11/09/2025-11/16/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,External Box Price Competitiveness (% Of GV)(11/02/2025-11/09/2025)(%),daterange_pct,11/02/2025-11/09/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Amzn GV(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Amzn GV(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Amzn GV(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Customer Returns($)(11/16/2025-11/23/2025),currency_daterange,11/16/2025-11/23/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Customer Returns($)(11/09/2025-11/16/2025),currency_daterange,11/09/2025-11/16/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Customer Returns($)(11/02/2025-11/09/2025),currency_daterange,11/02/2025-11/09/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Daily SoRoos%(11/16/2025-11/23/2025)(%),pct_suffix_daterange_pct,11/16/2025-11/23/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Daily SoRoos%(11/09/2025-11/16/2025)(%),pct_suffix_daterange_pct,11/09/2025-11/16/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Daily SoRoos%(11/02/2025-11/09/2025)(%),pct_suffix_daterange_pct,11/02/2025-11/09/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Ordered Units(11/16/2025-11/23/2025),daterange_only,11/16/2025-11/23/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Ordered Units(11/09/2025-11/16/2025),daterange_only,11/09/2025-11/16/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-Nov2-W49-2025.csv,Net Ordered Units(11/02/2025-11/09/2025),daterange_only,11/02/2025-11/09/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-W48-2025.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+WJTP1-W48-2025.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+WJTP1-W48-2025.csv,List Price($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,List Price,$,False,List_Price,HIGH,OK
+WJTP1-W48-2025.csv,Product GMS($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-W48-2025.csv,ASP(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-W48-2025.csv,CM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-W48-2025.csv,CP($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-W48-2025.csv,Net PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-W48-2025.csv,GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,GV,,False,Glance_Views,HIGH,OK
+WJTP1-W48-2025.csv,SoROOS(%)(11/23/2025-11/30/2025)(%),pct_metric_daterange_pct,11/23/2025-11/30/2025,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-W48-2025.csv,Vendor Confirmation Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-W48-2025.csv,Fill Rate - Sourceable(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-W48-2025.csv,SELLABLE_ON_HAND_UNITS(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-W48-2025.csv,Total GMM($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-W48-2025.csv,Net Receipts($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W48-2025.csv,Net Receipts (Units)(11/23/2025-11/30/2025),units_daterange,11/23/2025-11/30/2025,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W48-2025.csv,CCOGS As A % Of PCOGS(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-W48-2025.csv,PPM(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,PPM,%,True,PPM,HIGH,OK
+WJTP1-W48-2025.csv,External Box Price Competitiveness (% Of GV)(11/23/2025-11/30/2025)(%),daterange_pct,11/23/2025-11/30/2025,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-W48-2025.csv,Amzn GV(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-W48-2025.csv,Customer Returns($)(11/23/2025-11/30/2025),currency_daterange,11/23/2025-11/30/2025,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-W48-2025.csv,Daily SoRoos%(11/23/2025-11/30/2025)(%),pct_suffix_daterange_pct,11/23/2025-11/30/2025,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-W48-2025.csv,Net Ordered Units(11/23/2025-11/30/2025),daterange_only,11/23/2025-11/30/2025,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-W50-W1.csv,ASIN,static_column,,ASIN,,False,ASIN,HIGH,OK
+WJTP1-W50-W1.csv,Brand Name,static_column,,Brand Name,,False,Brand_Name,HIGH,OK
+WJTP1-W50-W1.csv,List Price($)(Week 49 ),currency_week,Week 49,List Price,$,False,List_Price,HIGH,OK
+WJTP1-W50-W1.csv,List Price($)(Week 50 ),currency_week,Week 50,List Price,$,False,List_Price,HIGH,OK
+WJTP1-W50-W1.csv,List Price($)(Week 51 ),currency_week,Week 51,List Price,$,False,List_Price,HIGH,OK
+WJTP1-W50-W1.csv,List Price($)(Week 52 ),currency_week,Week 52,List Price,$,False,List_Price,HIGH,OK
+WJTP1-W50-W1.csv,Product GMS($)(Week 49 ),currency_week,Week 49,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Product GMS($)(Week 50 ),currency_week,Week 50,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Product GMS($)(Week 51 ),currency_week,Week 51,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Product GMS($)(Week 52 ),currency_week,Week 52,Product GMS,$,False,Ordered_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,ASP(Week 49 ),week_only,Week 49,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-W50-W1.csv,ASP(Week 50 ),week_only,Week 50,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-W50-W1.csv,ASP(Week 51 ),week_only,Week 51,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-W50-W1.csv,ASP(Week 52 ),week_only,Week 52,ASP,,False,Average_Selling_Price,HIGH,OK
+WJTP1-W50-W1.csv,CM(Week 49 )(%),week_pct,Week 49,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-W50-W1.csv,CM(Week 50 )(%),week_pct,Week 50,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-W50-W1.csv,CM(Week 51 )(%),week_pct,Week 51,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-W50-W1.csv,CM(Week 52 )(%),week_pct,Week 52,CM,%,True,Contribution_Margin,HIGH,OK
+WJTP1-W50-W1.csv,CP($)(Week 49 ),currency_week,Week 49,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-W50-W1.csv,CP($)(Week 50 ),currency_week,Week 50,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-W50-W1.csv,CP($)(Week 51 ),currency_week,Week 51,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-W50-W1.csv,CP($)(Week 52 ),currency_week,Week 52,CP,$,False,Cost_Price,HIGH,OK
+WJTP1-W50-W1.csv,Net PPM(Week 49 )(%),week_pct,Week 49,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-W50-W1.csv,Net PPM(Week 50 )(%),week_pct,Week 50,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-W50-W1.csv,Net PPM(Week 51 )(%),week_pct,Week 51,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-W50-W1.csv,Net PPM(Week 52 )(%),week_pct,Week 52,Net PPM,%,True,Net_PPM,HIGH,OK
+WJTP1-W50-W1.csv,GV(Week 49 ),week_only,Week 49,GV,,False,Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,GV(Week 50 ),week_only,Week 50,GV,,False,Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,GV(Week 51 ),week_only,Week 51,GV,,False,Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,GV(Week 52 ),week_only,Week 52,GV,,False,Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,SoROOS(%)(Week 49 )(%),pct_metric_week_pct,Week 49,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-W50-W1.csv,SoROOS(%)(Week 50 )(%),pct_metric_week_pct,Week 50,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-W50-W1.csv,SoROOS(%)(Week 51 )(%),pct_metric_week_pct,Week 51,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-W50-W1.csv,SoROOS(%)(Week 52 )(%),pct_metric_week_pct,Week 52,SoROOS(%),%,True,SoROOS_Pct,HIGH,OK
+WJTP1-W50-W1.csv,Vendor Confirmation Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-W50-W1.csv,Vendor Confirmation Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-W50-W1.csv,Vendor Confirmation Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-W50-W1.csv,Vendor Confirmation Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Vendor Confirmation Rate - Sourceable,%,True,Vendor_Confirmation_Rate,HIGH,OK
+WJTP1-W50-W1.csv,Fill Rate - Sourceable(Week 49 )(%),week_pct,Week 49,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-W50-W1.csv,Fill Rate - Sourceable(Week 50 )(%),week_pct,Week 50,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-W50-W1.csv,Fill Rate - Sourceable(Week 51 )(%),week_pct,Week 51,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-W50-W1.csv,Fill Rate - Sourceable(Week 52 )(%),week_pct,Week 52,Fill Rate - Sourceable,%,True,Fill_Rate_Sourceable,HIGH,OK
+WJTP1-W50-W1.csv,SELLABLE_ON_HAND_UNITS(Week 49 ),week_only,Week 49,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-W50-W1.csv,SELLABLE_ON_HAND_UNITS(Week 50 ),week_only,Week 50,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-W50-W1.csv,SELLABLE_ON_HAND_UNITS(Week 51 ),week_only,Week 51,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-W50-W1.csv,SELLABLE_ON_HAND_UNITS(Week 52 ),week_only,Week 52,SELLABLE_ON_HAND_UNITS,,False,Sellable_On_Hand_Units,HIGH,OK
+WJTP1-W50-W1.csv,Total GMM($)(Week 49 ),currency_week,Week 49,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-W50-W1.csv,Total GMM($)(Week 50 ),currency_week,Week 50,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-W50-W1.csv,Total GMM($)(Week 51 ),currency_week,Week 51,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-W50-W1.csv,Total GMM($)(Week 52 ),currency_week,Week 52,Total GMM,$,False,Total_GMM,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts($)(Week 49 ),currency_week,Week 49,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts($)(Week 50 ),currency_week,Week 50,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts($)(Week 51 ),currency_week,Week 51,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts($)(Week 52 ),currency_week,Week 52,Net Receipts,$,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts (Units)(Week 49 ),units_week,Week 49,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts (Units)(Week 50 ),units_week,Week 50,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts (Units)(Week 51 ),units_week,Week 51,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,Net Receipts (Units)(Week 52 ),units_week,Week 52,Net Receipts,units,False,Net_Receipts_Revenue,HIGH,OK
+WJTP1-W50-W1.csv,CCOGS As A % Of PCOGS(Week 49 )(%),week_pct,Week 49,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-W50-W1.csv,CCOGS As A % Of PCOGS(Week 50 )(%),week_pct,Week 50,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-W50-W1.csv,CCOGS As A % Of PCOGS(Week 51 )(%),week_pct,Week 51,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-W50-W1.csv,CCOGS As A % Of PCOGS(Week 52 )(%),week_pct,Week 52,CCOGS As A % Of PCOGS,%,True,CCOGS_As_Pct_Of_PCOGS,HIGH,OK
+WJTP1-W50-W1.csv,PPM(Week 49 )(%),week_pct,Week 49,PPM,%,True,PPM,HIGH,OK
+WJTP1-W50-W1.csv,PPM(Week 50 )(%),week_pct,Week 50,PPM,%,True,PPM,HIGH,OK
+WJTP1-W50-W1.csv,PPM(Week 51 )(%),week_pct,Week 51,PPM,%,True,PPM,HIGH,OK
+WJTP1-W50-W1.csv,PPM(Week 52 )(%),week_pct,Week 52,PPM,%,True,PPM,HIGH,OK
+WJTP1-W50-W1.csv,External Box Price Competitiveness (% Of GV)(Week 49 )(%),week_pct,Week 49,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-W50-W1.csv,External Box Price Competitiveness (% Of GV)(Week 50 )(%),week_pct,Week 50,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-W50-W1.csv,External Box Price Competitiveness (% Of GV)(Week 51 )(%),week_pct,Week 51,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-W50-W1.csv,External Box Price Competitiveness (% Of GV)(Week 52 )(%),week_pct,Week 52,External Box Price Competitiveness (% Of GV),%,True,External_Price_Competitiveness,HIGH,OK
+WJTP1-W50-W1.csv,Amzn GV(Week 49 ),week_only,Week 49,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,Amzn GV(Week 50 ),week_only,Week 50,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,Amzn GV(Week 51 ),week_only,Week 51,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,Amzn GV(Week 52 ),week_only,Week 52,Amzn GV,,False,Amazon_Glance_Views,HIGH,OK
+WJTP1-W50-W1.csv,Customer Returns($)(Week 49 ),currency_week,Week 49,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-W50-W1.csv,Customer Returns($)(Week 50 ),currency_week,Week 50,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-W50-W1.csv,Customer Returns($)(Week 51 ),currency_week,Week 51,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-W50-W1.csv,Customer Returns($)(Week 52 ),currency_week,Week 52,Customer Returns,$,False,Customer_Returns,HIGH,OK
+WJTP1-W50-W1.csv,Daily SoRoos%(Week 49 )(%),pct_suffix_week_pct,Week 49,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-W50-W1.csv,Daily SoRoos%(Week 50 )(%),pct_suffix_week_pct,Week 50,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-W50-W1.csv,Daily SoRoos%(Week 51 )(%),pct_suffix_week_pct,Week 51,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-W50-W1.csv,Daily SoRoos%(Week 52 )(%),pct_suffix_week_pct,Week 52,Daily SoRoos%,%,True,Daily_SoRoos_Pct,HIGH,OK
+WJTP1-W50-W1.csv,IDQ Score(Week 49 ),week_only,Week 49,IDQ Score,,False,IDQ_Score,HIGH,OK
+WJTP1-W50-W1.csv,IDQ Score(Week 50 ),week_only,Week 50,IDQ Score,,False,IDQ_Score,HIGH,OK
+WJTP1-W50-W1.csv,IDQ Score(Week 51 ),week_only,Week 51,IDQ Score,,False,IDQ_Score,HIGH,OK
+WJTP1-W50-W1.csv,IDQ Score(Week 52 ),week_only,Week 52,IDQ Score,,False,IDQ_Score,HIGH,OK
+WJTP1-W50-W1.csv,Net Ordered Units(Week 49 ),week_only,Week 49,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-W50-W1.csv,Net Ordered Units(Week 50 ),week_only,Week 50,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-W50-W1.csv,Net Ordered Units(Week 51 ),week_only,Week 51,Net Ordered Units,,False,Ordered_Units,HIGH,OK
+WJTP1-W50-W1.csv,Net Ordered Units(Week 52 ),week_only,Week 52,Net Ordered Units,,False,Ordered_Units,HIGH,OK

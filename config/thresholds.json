@@ -1,0 +1,76 @@
+{
+  "description": "RAG (Red/Amber/Green) thresholds for performance metrics",
+  "version": "1.0",
+  "thresholds": {
+    "Net_PPM": {
+      "red": 0.05,
+      "amber": 0.15,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Net Profit Percentage Margin"
+    },
+    "PPM": {
+      "red": 0.0,
+      "amber": 0.10,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Pure Profit Margin"
+    },
+    "Contribution_Margin": {
+      "red": -0.10,
+      "amber": 0.05,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Contribution Margin"
+    },
+    "WoW_Change": {
+      "red": -0.15,
+      "amber": -0.05,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Week-over-Week Change (generic)"
+    },
+    "Revenue_WoW": {
+      "red": -0.20,
+      "amber": -0.10,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Revenue Week-over-Week Change"
+    },
+    "Units_WoW": {
+      "red": -0.20,
+      "amber": -0.10,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Units Week-over-Week Change"
+    },
+    "GlanceViews_WoW": {
+      "red": -0.25,
+      "amber": -0.10,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Glance Views Week-over-Week Change"
+    },
+    "Fill_Rate_Sourceable": {
+      "red": 0.70,
+      "amber": 0.90,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Fill Rate for Sourceable Items"
+    },
+    "Vendor_Confirmation_Rate": {
+      "red": 0.70,
+      "amber": 0.90,
+      "unit": "%",
+      "direction": "higher_is_better",
+      "description": "Vendor Confirmation Rate"
+    },
+    "SoROOS_Pct": {
+      "red": 0.20,
+      "amber": 0.10,
+      "unit": "%",
+      "direction": "lower_is_better",
+      "description": "Share of Retail Out of Stock"
+    }
+  }
+}

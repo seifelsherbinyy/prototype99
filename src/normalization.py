@@ -15,6 +15,7 @@ from typing import TYPE_CHECKING
 import pandas as pd
 
 from src.logger import debug_watcher
+from src.value_parser import parse_numeric_series
 
 if TYPE_CHECKING:
     from collections.abc import Mapping
@@ -149,29 +150,8 @@ def _sanitize_numeric(series: pd.Series) -> pd.Series:
     if series.dtype in ["int64", "float64"]:
         return series
 
-    # Convert to string, handle NaN
-    str_series = series.astype(str)
-
-    # Replace common non-numeric values
-    str_series = str_series.replace(["N/A", "NULL", "null", "None", "nan", ""], "NaN")
-
-    # Remove currency symbols
-    str_series = str_series.str.replace(r"[$€AEDUSD]", "", regex=True)
-
-    # Remove commas (thousand separators)
-    str_series = str_series.str.replace(",", "")
-
-    # Handle parentheses as negative: (123.45) -> -123.45
-    str_series = str_series.str.replace(r"^\((.*)\)$", r"-\1", regex=True)
-
-    # Remove percentage signs (for percentage fields that need to be converted)
-    str_series = str_series.str.replace("%", "")
-
-    # Strip whitespace
-    str_series = str_series.str.strip()
-
-    # Convert to numeric
-    return pd.to_numeric(str_series, errors="coerce")
+    parsed = parse_numeric_series(series)
+    return pd.to_numeric(parsed, errors="coerce")
 
 
 def _extract_date_from_filename(filepath: str | Path) -> datetime | None:

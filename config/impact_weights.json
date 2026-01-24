@@ -1,0 +1,50 @@
+{
+  "description": "Financial impact weights for priority scoring (Amendment C)",
+  "version": "1.0",
+  "formula": "Impact_Score = |Percentage_Change| x Metric_Weight x Direction_Multiplier",
+  "direction_multipliers": {
+    "decline": -1.0,
+    "improvement": 0.5
+  },
+  "note": "Higher weight = higher priority when ranking issues. Declines are prioritized over improvements.",
+  "weights": {
+    "Ordered_Revenue": {
+      "weight": 10,
+      "rationale": "Direct financial impact - highest priority"
+    },
+    "Ordered_Units": {
+      "weight": 8,
+      "rationale": "Volume driver affecting revenue"
+    },
+    "Net_PPM": {
+      "weight": 7,
+      "rationale": "Profitability indicator with margin implications"
+    },
+    "Conversion_Rate": {
+      "weight": 7,
+      "rationale": "Efficiency indicator with revenue implications"
+    },
+    "Average_Selling_Price": {
+      "weight": 6,
+      "rationale": "Margin and revenue impact"
+    },
+    "Fill_Rate_Sourceable": {
+      "weight": 5,
+      "rationale": "Supply chain health affecting availability"
+    },
+    "SoROOS_Pct": {
+      "weight": 5,
+      "rationale": "Stock availability affecting customer experience"
+    },
+    "Glance_Views": {
+      "weight": 4,
+      "rationale": "Top-of-funnel, indirect impact on revenue"
+    },
+    "Sessions": {
+      "weight": 3,
+      "rationale": "Traffic indicator, early funnel metric"
+    }
+  },
+  "top_n_issues": 3,
+  "min_impact_threshold": 10.0
+}

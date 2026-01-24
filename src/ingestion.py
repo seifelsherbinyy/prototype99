@@ -13,6 +13,7 @@ from typing import TYPE_CHECKING
 
 import pandas as pd
 
+from src.file_loader import ALLOWED_SUFFIXES, load_file
 from src.logger import debug_watcher, get_logger
 from src.normalization import normalize_data
 
@@ -22,14 +23,14 @@ if TYPE_CHECKING:
 # Get logger instance
 logger = get_logger(__name__)
 
-# Supported file extensions
-ALLOWED_SUFFIXES = (".csv", ".xlsx", ".xls")
-
-# Encodings to try for CSV files
-CSV_ENCODINGS = ["utf-8", "latin-1", "cp1252", "iso-8859-1"]
-
-
-def _load_file(path: Path) -> pd.DataFrame | None:
+def _load_file(
+    path: Path,
+    *,
+    delimiter: str | None = None,
+    sheet_name: str | int | None = None,
+    encoding: str | None = None,
+    json_lines: bool | None = None,
+) -> pd.DataFrame | None:
     """
     Load a file into a DataFrame, trying multiple encodings if needed.
 
@@ -39,30 +40,16 @@ def _load_file(path: Path) -> pd.DataFrame | None:
     Returns:
         DataFrame or None if loading fails.
     """
-    suffix = path.suffix.lower()
-
-    if suffix == ".csv":
-        # Try multiple encodings
-        for encoding in CSV_ENCODINGS:
-            try:
-                return pd.read_csv(path, encoding=encoding, low_memory=False)
-            except UnicodeDecodeError:
-                continue
-            except Exception as e:
-                logger.warning(f"Failed to load {path} with encoding {encoding}: {e}")
-                continue
-        logger.error(f"Failed to load {path} with all attempted encodings")
-        return None
-
-    elif suffix in (".xlsx", ".xls"):
-        try:
-            return pd.read_excel(path, engine="openpyxl" if suffix == ".xlsx" else None)
-        except Exception as e:
-            logger.error(f"Failed to load Excel file {path}: {e}")
-            return None
-
-    else:
-        logger.warning(f"Unsupported file format: {suffix} for {path}")
+    try:
+        return load_file(
+            path,
+            delimiter=delimiter,
+            sheet_name=sheet_name,
+            encoding=encoding,
+            json_lines=json_lines,
+        )
+    except Exception as e:
+        logger.warning(f"Failed to load {path}: {e}")
         return None
 
 
